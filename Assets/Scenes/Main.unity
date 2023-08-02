@@ -3277,7 +3277,6 @@ GameObject:
   - component: {fileID: 557623973}
   - component: {fileID: 557623975}
   - component: {fileID: 557623974}
-  - component: {fileID: 557623976}
   m_Layer: 5
   m_Name: StatText
   m_TagString: Untagged
@@ -3402,20 +3401,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557623972}
   m_CullTransparentMesh: 1
---- !u!114 &557623976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557623972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
 --- !u!1 &572946738
 GameObject:
   m_ObjectHideFlags: 0
@@ -8802,7 +8787,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 3
+  m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -11860,6 +11845,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 870857917383810578, guid: 1ab94cca5989cba43886e4eb9432b459, type: 3}
+      propertyPath: m_SortingOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 870857917383810580, guid: 1ab94cca5989cba43886e4eb9432b459, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -12314,11 +12303,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5332460967386841740, guid: 1ab94cca5989cba43886e4eb9432b459, type: 3}
       propertyPath: m_SortingOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5332646895037959496, guid: 1ab94cca5989cba43886e4eb9432b459, type: 3}
       propertyPath: m_SortingOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5332678026991616236, guid: 1ab94cca5989cba43886e4eb9432b459, type: 3}
       propertyPath: m_SortingOrder
